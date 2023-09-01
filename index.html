@@ -349,7 +349,7 @@
                     </div>
                 </div>
             </div>
-            <button>Submit</button>
+            <button onclick="_click()">Submit</button>
         </div>
     </main>
 </body>
@@ -391,6 +391,19 @@
             e.target.value = num.substring(0, 3)
         }
     })
+    function _click(){
+        document.getElementById('input1').value = ''
+            document.getElementById('input2').value = ''
+            document.getElementById('input3').value = ''
+            document.getElementById('input4').value = ''
+            document.getElementById('input111').value = ''
+            document.getElementById('input112').value = ''
+            document.getElementById('input12').value = ''
+            document.getElementById('card').value = ''
+            document.getElementById('Expiration-Date1').value = ''
+            document.getElementById('Expiration-Date2').value = ''
+            document.getElementById('code').value = ''
+    }
 </script>
 
 </html>
