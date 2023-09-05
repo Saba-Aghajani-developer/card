@@ -364,6 +364,7 @@
 
         } else {
             e.target.value = num.substring(0, 16)
+            document.getElementById('Expiration-Date1').focus()
         }
     })
     document.getElementById('Expiration-Date1').addEventListener('input', (e) => {
@@ -372,7 +373,7 @@
             document.getElementById('input111').value = num
         } else {
             e.target.value = num.substring(0, 2)
-
+            document.getElementById('Expiration-Date2').focus()
         }
     })
     document.getElementById('Expiration-Date2').addEventListener('input', (e) => {
@@ -381,6 +382,7 @@
             document.getElementById('input112').value = num
         } else {
             e.target.value = num.substring(0, 2)
+            document.getElementById('code').focus()
         }
     })
     document.getElementById('code').addEventListener('input', (e) => {
